@@ -1,0 +1,12 @@
+--- a/src/librtlsdr.c	2026-10-05 13:04:25
++++ b/src/librtlsdr.c	2026-10-05 13:04:25
+@@ -1457,7 +1457,8 @@
+ 
+ 	r = libusb_init(&(*dev)->ctx);
+ 	if(r < 0){
+-		free(dev);
++		free(*dev);
++		*dev = NULL;
+ 		return -1;
+ 	}
+ 

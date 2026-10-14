@@ -1,0 +1,76 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+
+# Secrets
+.env
+.env.*
+*.pem
+*.p8
+*.pfx
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Local backups / scratch
+.backup/
+.tmp*
+/tmp/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Flutter/Dart/Pub
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# FVM
+.fvm/
+
+# Symbolication
+app.*.symbols
+
+# Obfuscation
+app.*.map.json
+
+# Android Studio
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Xcode
+**/DerivedData/
+**/xcuserdata/
+
+# Native core: third-party sources are fetched (pinned + checksummed) by
+# tooling/fetch_third_party.sh, and host builds go under native/build
+/third_party/
+/native/build/
+
+# Large IQ captures
+*.cu8
+*.cs16
+*.iq
+*.xz
+
+# Tests
+/test/
+/native/tests/
+/tool/screens/
+/tooling/native_test.sh

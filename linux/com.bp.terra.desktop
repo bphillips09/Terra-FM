@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Terra FM
+Comment=HD and FM receiver
+Exec=terra
+Icon=com.bp.terra
+Categories=Audio;
+StartupWMClass=com.bp.terra

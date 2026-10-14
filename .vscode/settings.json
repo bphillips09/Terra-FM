@@ -1,0 +1,19 @@
+{
+  "dart.flutterSdkPath": ".fvm/versions/3.47.6",
+  "search.exclude": {
+    "**/.fvm": true,
+    "build": true,
+    "native/build": true,
+    "third_party": true
+  },
+  "files.watcherExclude": {
+    "**/.fvm/**": true,
+    "**/build/**": true,
+    "third_party/**": true
+  },
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/native/build/host/compile_commands.json",
+  "C_Cpp.default.cppStandard": "c++17",
+  "cmake.sourceDirectory": "${workspaceFolder}/native",
+  "cmake.buildDirectory": "${workspaceFolder}/native/build/cmake-tools",
+  "cmake.configureOnOpen": false
+}

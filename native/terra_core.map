@@ -1,0 +1,6 @@
+{
+  global:
+    terra_*;
+  local:
+    *;
+};

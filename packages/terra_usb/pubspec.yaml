@@ -1,0 +1,21 @@
+name: terra_usb
+description: Android USB access for Terra FM's RTL-SDR dongles (permission and file descriptor hand-off).
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ^3.13.0
+  flutter: ">=3.47.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+# A plugin (not activity code) so Flutter registers it on every engine,
+# including the one audio_service starts without an activity.
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.bp.terra.usb
+        pluginClass: TerraUsbPlugin
