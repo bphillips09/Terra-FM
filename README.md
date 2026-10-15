@@ -1,5 +1,9 @@
 # Terra FM
 
+<img src="docs/screenshots/now-playing-hd.png" alt="Now playing an HD station, with album art" height="300" /> <img src="docs/screenshots/now-playing-fm.png" alt="Now playing an analog FM station" height="300" />
+
+> _Now playing on macOS_
+
 HD (NRSC-5) and analog FM Radio receiver for USB tuners, built with
 Flutter. Android, macOS, Windows and Linux.
 
@@ -15,6 +19,22 @@ Flutter. Android, macOS, Windows and Linux.
 
 Tested hardware targets: RTL-SDR Blog V3 and Nooelec NESDR v5 (R820T2)
 Any tuner known to librtlsdr should work
+
+## Screenshots
+
+### Station Scan
+
+<img src="docs/screenshots/stations.png" alt="Band scan listing FM stations, with HD channels marked" height="360" />
+
+### Maps
+
+<img src="docs/screenshots/traffic.png" alt="Traffic map received from an FM station" height="360" /> <img src="docs/screenshots/weather.png" alt="Weather radar over an offline map" height="360" />
+
+Traffic and weather come from stations that broadcast them
+
+### Diagnostics
+
+<img src="docs/screenshots/diagnostics.png" alt="Diagnostics page with the spectrum and signal readouts" height="360" />
 
 ## Building
 
